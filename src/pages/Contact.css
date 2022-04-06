@@ -1,0 +1,12 @@
+.contact {
+    padding: 10%;
+    font-size: 1.6rem;
+    margin: 1.5%;
+}
+
+.contact-icon {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 2%;
+    justify-content: left;
+}

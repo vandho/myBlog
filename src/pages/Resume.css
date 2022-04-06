@@ -1,0 +1,8 @@
+@media only screen and (max-width: 780px) {
+    .resume {
+        display: grid;
+        font-size: 15px;
+        padding: 0 20px;
+        height: 766px;
+    }
+}

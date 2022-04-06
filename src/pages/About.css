@@ -1,0 +1,91 @@
+.aboutMe {
+    padding: 0 100px;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 45px;
+    margin: 20px;
+}
+
+.myProfile {
+    font-size: 1rem;
+    padding: 2% 0 1% 0;
+}
+
+.myEducation {
+    font-size: 1rem;
+}
+
+.text-center-medium {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.mySkill {
+    padding: 2rem 0 1rem 0;
+}
+
+
+
+.mySkill-content {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 2rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 780px) {
+    .aboutMe {
+        display: grid;
+        padding: 0 10px;
+    }
+
+    .text-center {
+        text-align: center;
+        font-size: 250%;
+    }
+
+    .text-center-medium {
+        text-align: center;
+        font-size: 190%;
+    }
+    
+    .myProfile {
+        height: 100%;
+        text-align: justify;
+        padding: 0 20px;
+        font-size: 120%;
+    }
+    
+    .myEducation {
+        font-size: 120%;
+        padding: 20px;
+    }
+
+    .mySkill {
+        padding: 0 20px;
+        display: grid;
+    }
+
+    .mySkill-content {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        text-align: center;
+        font-size: 100%;
+    }
+    
+    i {
+        font-size: 180%;
+    }
+}
